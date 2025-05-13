@@ -21,14 +21,14 @@ When passing through a path cell containing a cherry, you pick it up, and the ce
 5. Start recursion from bottom-right corner (n-1,n-1) for both players and return max(0, result) to handle case where no valid path exists.
 
 ## Program:
-```PY
+```
 /*
 To implement the program for Cherry pickup problem.
 
-
 Developed by: KEERTHANA S
 Register Number:  212222230066
-
+```
+```PY
 class Solution:
     def cherryPickup(self, grid):
         n = len(grid)
